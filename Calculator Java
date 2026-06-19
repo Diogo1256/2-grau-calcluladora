@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner valor = new Scanner(System.in);
+        Scanner ope = new Scanner(System.in);
+        
+        System.out.println("Qual seu primeiro número? ");
+        double a = valor.nextDouble();
+        System.out.println("Qual o seu segundo número? ");
+        double b = valor.nextDouble();
+        
+        System.out.println("----------");
+        
+        System.out.println("1 - soma");
+        System.out.println("2 - subtração");
+        System.out.println("3 - multiplicação");
+        System.out.println("4 - divisão");
+        
+        System.out.println("----------");
+        
+        int nu = ope.nextInt();
+     
+     System.out.println("----------");
+        
+        if (nu == 1)
+            
+         System.out.println(a+b);
+        
+            if (nu == 2)
+                
+             System.out.println(a-b);
+                
+             if (nu == 3)
+                
+                System.out.println(a*b);
+                    
+            if (nu == 4)
+                        
+                    System.out.println(a/b);
+        
+        
+        
+        }
+    }
